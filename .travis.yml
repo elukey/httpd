@@ -298,12 +298,12 @@ script:
 # Send notifications by default to IRC and dev@, for everything but
 # forks, otherwise any build from a fork will spam the list with CI
 # results.
-notifications:
-  irc:
-    if: fork = false
-    channels:
-      - "chat.freenode.net#httpd-dev"
-  email:
-    if: fork = false
-    recipients:
-      - dev@httpd.apache.org
+#notifications:
+#  irc:
+#    if: fork = false
+#    channels:
+#      - "chat.freenode.net#httpd-dev"
+#  email:
+#    if: fork = false
+#    recipients:
+#      - dev@httpd.apache.org
